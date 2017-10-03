@@ -1,11 +1,12 @@
 body {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Catamaran', serif;
+  font-size: 17px;
   color: #46433A;
   background-color: white; }
 
 header,
 main {
-  padding: 0 20px; }
+  padding: 0 10px; }
 
 /*** wrapper div for both header and main ***/
 .wrapper {
@@ -93,7 +94,7 @@ footer {
   /* wrapper stays 480px wide past 480px wide and is kept centered */
   .wrapper {
     width: 480px;
-    margin: 10% auto 0 auto; } }
+    margin: 8% auto 0 auto; } }
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
